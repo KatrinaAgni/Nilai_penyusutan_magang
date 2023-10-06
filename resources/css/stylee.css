@@ -1,0 +1,29 @@
+/* CSS untuk mengatur tata letak */
+header {
+    background-color: #333; /* Warna latar belakang header */
+    color: white; /* Warna teks header */
+    padding: 10px; /* Ruang dalam header */
+}
+
+nav {
+    float: left; /* Membuat elemen nav mengapung di sebelah kiri */
+    width: 25%; /* Lebar elemen nav (sesuaikan sesuai kebutuhan) */
+}
+
+article {
+    float: right; /* Membuat elemen article mengapung di sebelah kiri */
+    width: 75%; /* Lebar elemen article (sesuaikan sesuai kebutuhan) */
+    padding: 10px; /* Ruang dalam article */
+}
+
+nav.info {
+    background-color: #f4f4f4; /* Warna latar belakang info */
+    padding: 10px; /* Ruang dalam info */
+}
+
+/* Clear float setelah elemen yang mengapung (article dan nav) */
+main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
