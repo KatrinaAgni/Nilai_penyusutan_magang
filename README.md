@@ -1,0 +1,1 @@
+# Nilai_penyusutan_magang
