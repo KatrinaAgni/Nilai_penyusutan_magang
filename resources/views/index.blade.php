@@ -114,9 +114,9 @@
         </div>
 
         <button type="submit">Simpan</button>
-    </form> --}}
+    </form> 
 
-    {{-- <script>
+    <script>
         // Ketika dropdown berubah
         document.getElementById('nama_barang').addEventListener('change', function() {
             var selectedValue = this.value; // Nilai yang dipilih dari dropdown
